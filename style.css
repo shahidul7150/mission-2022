@@ -108,6 +108,35 @@ p{
 #dev-dis2 h2 {
     font-size: 28px;
 }
-#dev-dis2 h2 span{
-    color: orange;
+
+.g-comu{
+    margin-top: 100px;
+    margin-left:60px;
+    margin-bottom: 100px;
+}
+.comu-cover{
+    position: relative;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: right bottom;
+    margin-right: 20px;
+   
+}
+
+footer{
+    width: 100%;
+    background: #000;
+    height: 150px;
+    color: #fff;
+    text-align: center;
+}
+footer h1{
+    font-size: 28px;
+    padding-top: 20px;
+    font-family: Romanesco;
+}
+footer p{
+    font-size: 12px;
+    margin-top: 0;
 }
