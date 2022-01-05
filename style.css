@@ -4,4 +4,95 @@ body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Romanesco', cursive;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.flex-comp{
+    display: flex;
+    justify-content: space-around;
+}
+.width-half{
+    width: 50%;
+    margin-left: 60px;
+}
+.width-half img{
+    width: 70%;
+    margin-left: 60px;
+}
+section h1{
+    font-size: 60px;
+    font-family: DM Serif Text;
+    margin-left: 10px;
+    
+    
+}
+section h1 span{
+    color: orange;
+    padding-top: 10px;
+}
+#left-border{
+    
+    position: relative;
+    border-left: 4px solid orange;
+    height: 145px;
+}
+p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.btn{
+    text-decoration: none;
+    background: #FF5959;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.my-mission-heading{
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 50px;
+}
+.one-third{
+    width: 30%;
+    background: #000;
+    border-radius: 10px;
+    
+}
+#card-bg1{
+    background: #EDF5F6;
+
+}
+#card-bg2{
+    background: #FFEEEE;
+}
+#card-bg3{
+    background: #FFF4D6;
+}
+.one-third img{
+    width:40%;
+    padding-left: 40px;
+}
+.one-third h3{
+    padding-left: 40px;
+}
+.one-third p{
+    width: 80%;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 0;
+   padding-bottom: 20px;
+}
+.d-noLimits{
+    margin-top: 50px;
+    justify-content: space-between;
+}
+#text h1{
+    text-align: center;
+    font-size: 28px;
+}
+.d-noLimits h1{
+    font-size: 40px;
+    
 }
